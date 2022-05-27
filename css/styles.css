@@ -127,6 +127,7 @@ body{
 .action:hover{
     cursor: pointer;
     transform: scale(1.1);
+    background: #282a2a;
 }
 
 .actions .action:nth-last-child(1) {
@@ -134,16 +135,17 @@ body{
 }
 
 .actions .action:nth-last-child(2) {
-    margin: 0 1rem;
+    margin: 0 3.5rem;
     color: #2db1ff;
-    height: 48px;
+   /*  height: 48px;
     width: 48px;
-    font-size: 1rem;
+    font-size: 1rem; */
 }
 
 .actions .action:nth-last-child(3) {
     color: #1be4a1;
 }
+
 
 @media (min-width: 500px) {
     .photo{
